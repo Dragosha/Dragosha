@@ -1,7 +1,8 @@
 [project]
 title = Hamster
 custom_resources = 
-version = 0.42
+version = 0.45
+dependencies = https://github.com/britzl/defold-googleanalytics/archive/master.zip
 
 [bootstrap]
 main_collection = /main/main.collectionc
@@ -29,6 +30,12 @@ shared_state = 1
 [android]
 iap_provider = GooglePlay
 package = com.dragosha.hamster
+app_icon_36x36 = /icons/app_icon36.png
+app_icon_48x48 = /icons/app_icon48.png
+app_icon_72x72 = /icons/app_icon72.png
+app_icon_96x96 = /icons/app_icon96.png
+app_icon_144x144 = /icons/app_icon144.png
+app_icon_192x192 = /icons/app_icon192.png
 
 [sprite]
 max_count = 32000
@@ -47,4 +54,16 @@ bundle_identifier = com.dragosha.hamster
 
 [ios]
 bundle_identifier = com.dragosha.hamster
+
+[tracking]
+app_id = 2C27F9B5B467B496
+
+[facebook]
+appid = 769008583268958
+
+[googleanalytics]
+tracking_id = UA-103054571-1
+dispatch_period = 30
+queue_save_period = 60
+verbose = 1
 
