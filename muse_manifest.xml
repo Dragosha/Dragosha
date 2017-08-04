@@ -1,0 +1,40 @@
+<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="false" exportTarget="other" domain="dragosha.com" resolutions="1x" timestamp="1501827036715">
+  <folder name="css">
+    <file name="site_global.css" crc="3917077852"/>
+    <file name="master_a-master.css" crc="248184059" ref="index"/>
+    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="index"/>
+    <file name="index.css" crc="98428304" ref="index"/>
+    <file name="nomq_index.css" crc="4075407754" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4216313831" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4177022356" ref="index"/>
+    <file name="jquery.watch.js" crc="460461809" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="4055310269" ref="index"/>
+    <file name="require.js" crc="3951022091" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="pasted image 613x842.jpg" crc="501425165" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="device.png" crc="162119219" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="skull.png" crc="211450069" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pasted image 613x842208x285.jpg" crc="206590833" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="device389x512.png" crc="4109305769" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4070628408" seo="true" mt="1501826845842" redirect="true"/>
+</manifest>
