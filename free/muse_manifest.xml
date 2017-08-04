@@ -1,0 +1,132 @@
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" ftp_hostname="sftp://192.241.129.233" ftp_rootfolder="//var/www/dragosha.com/free" exportTarget="FTP" domain="dragosha.com/free" resolutions="1x" timestamp="1475234423650">
+  <folder name="css">
+    <file name="site_global.css" crc="375205272"/>
+    <file name="index.css" crc="3913351380" ref="index"/>
+    <file name="adventure-tileset.css" crc="114340871" ref="adventure-tileset"/>
+    <file name="nomq_adventure-tileset.css" crc="255440751" ref="adventure-tileset"/>
+    <file name="master_a-master.css" crc="3885045335" ref="index:adventure-tileset:isometric-dungeon-tileset"/>
+    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="index:adventure-tileset:isometric-dungeon-tileset"/>
+    <file name="isometric-dungeon-tileset.css" crc="368861582" ref="isometric-dungeon-tileset"/>
+    <file name="nomq_isometric-dungeon-tileset.css" crc="3875218037" ref="isometric-dungeon-tileset"/>
+  </folder>
+  <folder name="assets">
+    <file name="adventure-tileset.zip" crc="405108663" seo="true" mt="1475217800000"/>
+    <file name="dungeon-tileset.zip" crc="73736242" seo="true" mt="1475233621000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="169078940" ref="index:adventure-tileset:isometric-dungeon-tileset"/>
+    <file name="museutils.js" crc="3851988764" ref="index:adventure-tileset:isometric-dungeon-tileset"/>
+    <file name="whatinput.js" crc="86476730" ref="index:adventure-tileset:isometric-dungeon-tileset"/>
+    <file name="museconfig.js" crc="169177150" ref="index:adventure-tileset:isometric-dungeon-tileset"/>
+    <file name="require.js" crc="4108833657" ref="index:adventure-tileset:isometric-dungeon-tileset"/>
+    <file name="pie.js" crc="3831537696" ref="adventure-tileset:index:isometric-dungeon-tileset"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="271560940" ref="adventure-tileset:isometric-dungeon-tileset"/>
+    <file name="jquery.scrolleffects.js" crc="511146689" ref="adventure-tileset:isometric-dungeon-tileset"/>
+    <file name="jquery.museresponsive.js" crc="516761069" ref="adventure-tileset:isometric-dungeon-tileset"/>
+    <file name="jquery.musemenu.js" crc="4150485998" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:adventure-tileset:isometric-dungeon-tileset"/>
+    <file name="jquery.watch.js" crc="3842844514" ref="index:adventure-tileset:isometric-dungeon-tileset"/>
+  </folder>
+  <folder name="images">
+    <file name="adventure-tileset-favicon.ico" crc="4158959807" ref="adventure-tileset"/>
+    <file name="adventure-tileset-u127-fr.png" crc="454073205" ref="adventure-tileset"/>
+    <file name="char1.png" crc="3883032378" seo="true" ref="adventure-tileset"/>
+    <file name="char3.png" crc="15612382" seo="true" ref="adventure-tileset"/>
+    <file name="adventure-tileset-u127-fr2.png" crc="234464268" ref="adventure-tileset"/>
+    <file name="blank.gif" crc="4208392903" ref="adventure-tileset:isometric-dungeon-tileset"/>
+    <file name="home-favicon.ico" crc="4158959807" ref="index"/>
+    <file name="char2.png" crc="416119879" seo="true" ref="index"/>
+    <file name="tile1-u1535-fr.png" crc="224755981" ref="isometric-dungeon-tileset"/>
+    <file name="crate3.png" crc="4037317884" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="tile5.png" crc="423384272" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="npc3-u1515-fr.png" crc="4018178603" ref="isometric-dungeon-tileset"/>
+    <file name="tile2.png" crc="315962130" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="crate2-u1379-fr.png" crc="3969587784" ref="isometric-dungeon-tileset"/>
+    <file name="device.png" crc="162119219" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="arrow-left.png" crc="4197255720" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="arrow-right.png" crc="3914230071" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="icon-gear.png" crc="213270641" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="arrow-up.png" crc="267372282" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="button.png" crc="3882387045" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="icon-attention.png" crc="455008306" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="icon-axe.png" crc="156424801" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="icon-coin.png" crc="3960764840" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="icon-potion.png" crc="4018934439" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="icon-potionmana.png" crc="4157542559" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="icon-sandglass.png" crc="153722194" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="icon-shot.png" crc="4203124299" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="icon-sword.png" crc="229204133" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="icon-sword2.png" crc="4053791287" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="tile1293x256.png" crc="3946273743" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="crate2.png" crc="3801653160" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="chest1.png" crc="4272622255" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="chest1-open.png" crc="3900454789" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="chest1-open2.png" crc="4279314313" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="chest1-open3.png" crc="4108642393" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="crate1.png" crc="4140372892" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="tile4.png" crc="3927297634" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="tile6.png" crc="289919282" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="tile3.png" crc="89049066" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="tile7.png" crc="4142143250" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="tiledoor.png" crc="420186044" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="tiledoor-open.png" crc="3864563299" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="tiledoor-open2.png" crc="3908155407" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="npc3.png" crc="4261745245" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="char12.png" crc="3895655341" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="npc1.png" crc="194942689" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="npc2.png" crc="80801679" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="npc4.png" crc="329683744" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="npc5.png" crc="3881586481" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="c1body.png" crc="535843479" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="c1eye.png" crc="383640427" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="c1hair1.png" crc="4181484978" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="c1head.png" crc="193938073" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="c1helmet.png" crc="4080497819" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="c1lboot1.png" crc="430293746" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="c1leye.png" crc="4268188935" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="c1lhand1.png" crc="4064163567" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="c1mouth1.png" crc="475697531" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="c1rboot1.png" crc="338904822" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="c1reye.png" crc="3773701529" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="c1rhand1.png" crc="4133894354" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="c1shadow.png" crc="497484565" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="skull.png" crc="211450069" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="adventure3.png" crc="4228994836" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="tile1-u1535-fr2.png" crc="432103120" ref="isometric-dungeon-tileset"/>
+    <file name="crate3-u1556-fr.png" crc="3933047175" ref="isometric-dungeon-tileset"/>
+    <file name="tile5-u1526-fr.png" crc="4080692144" ref="isometric-dungeon-tileset"/>
+    <file name="npc3-u1515-fr2.png" crc="3019588" ref="isometric-dungeon-tileset"/>
+    <file name="tile2-u1362-fr.png" crc="3918062860" ref="isometric-dungeon-tileset"/>
+    <file name="crate2-u1379-fr2.png" crc="221042491" ref="isometric-dungeon-tileset"/>
+    <file name="device389x512.png" crc="43213442" seo="true" ref="isometric-dungeon-tileset"/>
+    <file name="adventure3460x340.png" crc="4058631974" seo="true" ref="isometric-dungeon-tileset"/>
+  </folder>
+  <file name="index.html" crc="4080977509" seo="true" mt="1475233418279" redirect="true"/>
+  <file name="adventure-tileset.html" crc="173210881" seo="true" mt="1475234335377" redirect="true"/>
+  <file name="isometric-dungeon-tileset.html" crc="4204145161" seo="true" mt="1475234199215" redirect="true"/>
+  <site>
+    <asset filename="adventure-tileset.zip" muse_href="upload:U1341"/>
+    <asset filename="dungeon-tileset.zip" muse_href="upload:U2335"/>
+  </site>
+  <renditions>
+    <rendition device="desktop">
+      <page name="Home" filename="index.html" muse_href="page:U93" master="U72">
+        <breakpoint uid="U83" maxwidth="960" minwidth="0" squishy="true"/>
+      </page>
+      <masterPage name="A-Master" master="U62" uid="U72">
+        <breakpoint uid="U73" maxwidth="960" minwidth="0" squishy="true"/>
+      </masterPage>
+      <masterPage name="None" master="null" uid="U62">
+        <breakpoint uid="U63" maxwidth="960" minwidth="0" squishy="true"/>
+      </masterPage>
+      <page name="Adventure tileset" filename="adventure-tileset.html" muse_href="page:U122" master="U72">
+        <breakpoint uid="U598" maxwidth="960" minwidth="0" squishy="false"/>
+        <breakpoint uid="U346" maxwidth="1160" minwidth="961" squishy="false"/>
+      </page>
+      <page name="Isometric Dungeon tileset" filename="isometric-dungeon-tileset.html" muse_href="page:U1246" master="U72">
+        <breakpoint uid="U2483" maxwidth="960" minwidth="0" squishy="false"/>
+        <breakpoint uid="U1236" maxwidth="1160" minwidth="961" squishy="false"/>
+      </page>
+    </rendition>
+  </renditions>
+</manifest>
