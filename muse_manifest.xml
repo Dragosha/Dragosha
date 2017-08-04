@@ -1,10 +1,10 @@
-<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="false" exportTarget="other" domain="dragosha.com" resolutions="1x" timestamp="1501827036715">
+<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="false" exportTarget="other" domain="dragosha.com" resolutions="1x" timestamp="1501828141464">
   <folder name="css">
     <file name="site_global.css" crc="3917077852"/>
     <file name="master_a-master.css" crc="248184059" ref="index"/>
     <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="98428304" ref="index"/>
-    <file name="nomq_index.css" crc="4075407754" ref="index"/>
+    <file name="index.css" crc="241443170" ref="index"/>
+    <file name="nomq_index.css" crc="155515" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -36,5 +36,5 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="4070628408" seo="true" mt="1501826845842" redirect="true"/>
+  <file name="index.html" crc="4246873549" seo="true" mt="1501828100004" redirect="true"/>
 </manifest>
