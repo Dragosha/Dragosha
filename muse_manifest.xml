@@ -1,10 +1,8 @@
-<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="false" exportTarget="other" domain="dragosha.com" resolutions="1x" timestamp="1501828141464">
+<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="false" exportTarget="other" domain="dragosha.com" resolutions="1x" timestamp="1502102871667">
   <folder name="css">
     <file name="site_global.css" crc="3917077852"/>
-    <file name="master_a-master.css" crc="248184059" ref="index"/>
-    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="241443170" ref="index"/>
-    <file name="nomq_index.css" crc="155515" ref="index"/>
+    <file name="index.css" crc="237629208" ref="index"/>
+    <file name="nomq_index.css" crc="4171295105" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -14,27 +12,61 @@
     <file name="jquery.watch.js" crc="460461809" ref="index"/>
     <file name="jquery.museresponsive.js" crc="4055310269" ref="index"/>
     <file name="require.js" crc="3951022091" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4110862005" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="128250821" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="pasted image 613x842.jpg" crc="501425165" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="device.png" crc="162119219" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="skull.png" crc="211450069" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="pasted image 613x842208x285.jpg" crc="206590833" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="device389x512.png" crc="4109305769" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="npc1.png" crc="374781158" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mockup2.png" crc="4033978130" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mockup.png" crc="3842452543" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="monster-6.png" crc="4199999934" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mouse.png" crc="4292622989" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="monster-2.png" crc="55329710" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mage.png" crc="31941530" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="hero.png" crc="4064947154" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="shield-3.png" crc="185939505" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="eine_und_kleine.png" crc="217374358" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="15.jpg" crc="164914776" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="15960x535.jpg" crc="126107747" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4246873549" seo="true" mt="1501828100004" redirect="true"/>
+  <file name="index.html" crc="232787617" seo="true" mt="1502102851924" redirect="true"/>
 </manifest>
