@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://dragosha.com/index.html</loc>
-    <lastmod>2017-08-07</lastmod>
+    <lastmod>2017-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -37,6 +37,24 @@
     </image:image>
     <image:image>
       <image:loc>http://dragosha.com/images/eine_und_kleine.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://dragosha.com/images/mockup648x380.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://dragosha.com/images/eine_und_kleine418x273.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://dragosha.com/images/mockup2194x294.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://dragosha.com/images/mockup547x322.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://dragosha.com/images/eine_und_kleine259x169.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://dragosha.com/images/hero321x233.png</image:loc>
     </image:image>
   </url>
 </urlset>
