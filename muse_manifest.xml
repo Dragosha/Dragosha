@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="false" exportTarget="other" domain="dragosha.com" resolutions="1x" timestamp="1502180917611">
+<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="false" exportTarget="other" domain="dragosha.com" resolutions="1x" timestamp="1502181624593">
   <folder name="css">
     <file name="site_global.css" crc="3917077852"/>
-    <file name="index.css" crc="3807413829" ref="index"/>
+    <file name="index.css" crc="4269171278" ref="index"/>
     <file name="nomq_index.css" crc="3910899124" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -87,5 +87,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3989910299" seo="true" mt="1502180702936" redirect="true"/>
+  <file name="index.html" crc="3856477060" seo="true" mt="1502181568578" redirect="true"/>
 </manifest>
