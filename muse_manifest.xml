@@ -1,31 +1,32 @@
-<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="false" exportTarget="other" domain="dragosha.com" resolutions="1x" timestamp="1502181624593">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="false" exportTarget="other" domain="dragosha.com" resolutions="1x" timestamp="1510731142529">
   <folder name="css">
-    <file name="site_global.css" crc="3917077852"/>
-    <file name="index.css" crc="4269171278" ref="index"/>
-    <file name="nomq_index.css" crc="3910899124" ref="index"/>
+    <file name="site_global.css" crc="123077045"/>
+    <file name="index.css" crc="80095329" ref="index"/>
+    <file name="nomq_index.css" crc="4152777729" ref="index"/>
+    <file name="privacy-policy.css" crc="4198356279" ref="privacy-policy"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="4216313831" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="4177022356" ref="index"/>
-    <file name="jquery.watch.js" crc="460461809" ref="index"/>
-    <file name="jquery.museresponsive.js" crc="4055310269" ref="index"/>
-    <file name="require.js" crc="3951022091" ref="index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4110862005" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="128250821" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:privacy-policy"/>
+    <file name="museutils.js" crc="3803043152" ref="index:privacy-policy"/>
+    <file name="whatinput.js" crc="86476730" ref="index:privacy-policy"/>
+    <file name="museconfig.js" crc="4153641093" ref="index:privacy-policy"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="530399994" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index"/>
+    <file name="require.js" crc="4157109226" ref="index:privacy-policy"/>
   </folder>
   <folder name="images">
-    <file name="skull.png" crc="211450069" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="npc1.png" crc="374781158" seo="true" ref="index">
+    <file name="dragosha-games-favicon.ico" crc="277795610" ref="index"/>
+    <file name="15.jpg" crc="164914776" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="mockup2.png" crc="4033978130" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="google-play-badge.png" crc="4170248870" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
@@ -37,14 +38,22 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="mouse.png" crc="4292622989" seo="true" ref="index">
+    <file name="mouse.png" crc="4292622989" seo="true" ref="index:privacy-policy">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+      <caption webpage="privacy-policy" alt=""/>
     </file>
     <file name="monster-2.png" crc="55329710" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="skull.png" crc="211450069" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="eine_und_kleine.png" crc="217374358" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="mage.png" crc="31941530" seo="true" ref="index">
@@ -59,12 +68,6 @@
     <file name="shield-3.png" crc="185939505" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="eine_und_kleine.png" crc="217374358" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="15.jpg" crc="164914776" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="mockup648x380.png" crc="70071891" seo="true" ref="index">
@@ -86,6 +89,8 @@
     <file name="hero321x233.png" crc="3866424574" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="3856477060" seo="true" mt="1502181568578" redirect="true"/>
+  <file name="index.html" crc="3772405024" seo="true" mt="1510731075818" redirect="true"/>
+  <file name="privacy-policy.html" crc="142730154" seo="true" mt="1510729030955" redirect="true"/>
 </manifest>

@@ -5,8 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,width=device-width,minimal-ui" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Look, your loot! Card crawler.">
+        <meta name="twitter:image" content="http://dragosha.com/hamster/splash_image.jpg">
 
-		<title>Hamster 0.2 beta</title>
+		<title>Look, your loot! Card crawler. Open beta.</title>
         <style>
 			.canvas-app-container {
 			  /* A positioned parent for loading visuals */
@@ -39,6 +42,7 @@
 
 			* { margin:0; padding:0; }
 
+            #ads{text-align: center;}
 			#canvas {
               /*position: absolute;*/
 			  outline: none;
@@ -76,7 +80,7 @@
 
 	<!-- <script src="maximize_canvas.min.js"></script>-->
 	  <script type='text/javascript' src="dmloader.js"></script>
-	  <script type='text/javascript' src="Hamster.js" async onload=""></script>
+	  <script type='text/javascript' src="LookYourLoot.js" async onload=""></script>
 	<!-- -->
 
 	<script type='text/javascript'>
@@ -135,13 +139,23 @@
 		window.addEventListener('resize', resize_game_canvas, false);
 		window.addEventListener('orientationchange', resize_game_canvas, false);
 
+        this.addEventListener('touchmove', function (e) {
+            e.preventDefault();
+            }, false);
+
         function pressed() {
         		document.getElementById("canvas").onclick = function (e) { dragosha() };
         }
         function dragosha() {
-           		window.open("http://dragosha.com",'_blank');
+           		window.open("https://play.google.com/store/apps/details?id=com.dragosha.hamster",'_blank');
            		document.getElementById("canvas").onclick = "";
         }
+
+        function share(param, param2){
+            document.getElementById("canvas").onclick = function (e) {
+            window.open("https://twitter.com/share?text="+param+"&url=http%3A%2F%2Fdragosha.com%2Fhamster%2F",'');
+            document.getElementById("canvas").onclick = "";
+         };}
 	</script>
 </body>
 </html>
