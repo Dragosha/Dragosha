@@ -1,7 +1,7 @@
 [project]
 title = LookYourLoot
-custom_resources = 
-version = 0.83
+custom_resources = /res/LookYourLoot texts - texts.json
+version = 0.833
 
 [bootstrap]
 main_collection = /main/main.collectionc
@@ -14,8 +14,6 @@ gamepads = /builtins/input/default.gamepadsc
 [display]
 width = 720
 height = 900
-variable_dt = 1
-dynamic_orientation = 1
 
 [physics]
 scale = 0.02
@@ -27,9 +25,6 @@ gravity_y = -100
 [script]
 shared_state = 1
 
-[library]
-include_dirs = defunityads
-
 [android]
 iap_provider = GooglePlay
 package = com.dragosha.hamster
@@ -40,7 +35,7 @@ app_icon_96x96 = /icons-2/app_icon96.png
 app_icon_144x144 = /icons-2/app_icon144.png
 app_icon_192x192 = /icons-2/app_icon192.png
 manifest = /AndroidManifest.xml
-version_code = 10
+version_code = 12
 immersive_mode = 1
 
 [sprite]
@@ -87,5 +82,5 @@ htmlfile = /index.html
 auto_finish_transactions = 0
 
 [particle_fx]
-max_count = 128
+max_count = 80
 
