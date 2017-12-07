@@ -1,7 +1,7 @@
 [project]
 title = LookYourLoot
 custom_resources = /res/LookYourLoot texts - texts.json
-version = 0.834
+version = 0.835
 
 [bootstrap]
 main_collection = /main/main.collectionc
@@ -13,7 +13,7 @@ gamepads = /builtins/input/default.gamepadsc
 
 [display]
 width = 720
-height = 900
+height = 1024
 
 [physics]
 scale = 0.02
@@ -35,7 +35,7 @@ app_icon_96x96 = /icons-2/app_icon96.png
 app_icon_144x144 = /icons-2/app_icon144.png
 app_icon_192x192 = /icons-2/app_icon192.png
 manifest = /AndroidManifest.xml
-version_code = 13
+version_code = 14
 immersive_mode = 1
 
 [sprite]
@@ -82,8 +82,11 @@ htmlfile = /index.html
 auto_finish_transactions = 0
 
 [particle_fx]
-max_count = 80
+max_count = 200
 
 [native_extension]
 app_manifest = /release_engine.appmanifest
+
+[label]
+max_count = 128
 
