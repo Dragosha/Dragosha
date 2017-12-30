@@ -1,15 +1,15 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="dragosha.com/free" resolutions="1x" timestamp="1514664413462">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="dragosha.com/free" resolutions="1x" timestamp="1514665699771">
   <folder name="css">
-    <file name="site_global.css" crc="385950443"/>
-    <file name="master_a-master.css" crc="3783492777" ref="index:adventure-tileset:isometric-dungeon-tileset:dungeon-part-1-tiles"/>
+    <file name="site_global.css" crc="205758438"/>
+    <file name="master_a-master.css" crc="123499343" ref="index:adventure-tileset:isometric-dungeon-tileset:dungeon-part-1-tiles"/>
     <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="index:adventure-tileset:isometric-dungeon-tileset:dungeon-part-1-tiles"/>
     <file name="index.css" crc="191813497" ref="index"/>
     <file name="adventure-tileset.css" crc="4263110803" ref="adventure-tileset"/>
     <file name="nomq_adventure-tileset.css" crc="419125046" ref="adventure-tileset"/>
     <file name="isometric-dungeon-tileset.css" crc="4251071083" ref="isometric-dungeon-tileset"/>
     <file name="nomq_isometric-dungeon-tileset.css" crc="4187572985" ref="isometric-dungeon-tileset"/>
-    <file name="dungeon-part-1-tiles.css" crc="344523553" ref="dungeon-part-1-tiles"/>
-    <file name="nomq_dungeon-part-1-tiles.css" crc="3835539803" ref="dungeon-part-1-tiles"/>
+    <file name="dungeon-part-1-tiles.css" crc="4145710420" ref="dungeon-part-1-tiles"/>
+    <file name="nomq_dungeon-part-1-tiles.css" crc="28172402" ref="dungeon-part-1-tiles"/>
   </folder>
   <folder name="assets">
     <file name="tiles.zip" crc="4025311582" seo="true" mt="1514647829000"/>
@@ -23,7 +23,7 @@
     <file name="museconfig.js" crc="278381782" ref="index:adventure-tileset:isometric-dungeon-tileset:dungeon-part-1-tiles"/>
     <file name="jquery.musemenu.js" crc="4286030528" ref="index"/>
     <file name="jquery.watch.js" crc="4240030481" ref="index:adventure-tileset:isometric-dungeon-tileset:dungeon-part-1-tiles"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:adventure-tileset:isometric-dungeon-tileset:dungeon-part-1-tiles"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:adventure-tileset:isometric-dungeon-tileset"/>
     <file name="require.js" crc="3861931657" ref="index:adventure-tileset:isometric-dungeon-tileset:dungeon-part-1-tiles"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="3854337258" ref="adventure-tileset:isometric-dungeon-tileset"/>
     <file name="jquery.scrolleffects.js" crc="232371266" ref="adventure-tileset:isometric-dungeon-tileset"/>
@@ -284,125 +284,119 @@
       <caption webpage="isometric-dungeon-tileset" alt=""/>
     </file>
     <file name="the-dungeon.-part-1.-tiles-favicon.ico" crc="4158959807" ref="dungeon-part-1-tiles"/>
-    <file name="dummydoll5.png" crc="34232827" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
+    <file name="dummydoll5.png" crc="535678760" seo="true" ref="dungeon-part-1-tiles">
       <caption webpage="dungeon-part-1-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="tilestone8.png" crc="459063359" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="floor3e.png" crc="55968618" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="tile21d.png" crc="4073347697" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="floorgrid13.png" crc="211111222" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="tilestone9.png" crc="2668992" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="2014-07-31 16-56-30 xenofantfla.jpg" crc="329762651" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="2015-05-02 23-29-54 adobe flash player 16.jpg" crc="3864924756" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="2015-01-21 00-06-40 adobe flash player 11.jpg" crc="4166602200" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="2015-02-05 19-03-47 скриншот экрана.jpg" crc="4057908163" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="2015-03-03 19-28-28 xenouifla.jpg" crc="302413245" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="2014-09-25 11-33-51 скриншот экрана.jpg" crc="3806701539" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="2015-04-20 19-35-59 adobe flash player 16.jpg" crc="317724765" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
-    </file>
-    <file name="2017-12-30_23-50-57.jpg" crc="3990740806" seo="true" ref="dungeon-part-1-tiles">
       <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
-      <caption webpage="dungeon-part-1-tiles" alt=""/>
-      <caption webpage="dungeon-part-1-tiles" alt=""/>
     </file>
     <file name="2017-12-30_23-53-02.jpg" crc="3841825646" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="green.jpg" crc="3916151444" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="floor3e131x124.png" crc="95096032" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="tile21d115x145.png" crc="4035563494" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="2014-07-31 16-56-30 xenofantfla322x193.jpg" crc="4284785786" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="2015-05-02 23-29-54 adobe flash player 16320x190.jpg" crc="75478801" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="2015-01-21 00-06-40 adobe flash player 11322x193.jpg" crc="4150386644" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="2015-02-05 19-03-47 скриншот экрана320x169.jpg" crc="3999377371" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="2015-03-03 19-28-28 xenouifla321x191.jpg" crc="426201961" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="2014-09-25 11-33-51 скриншот экрана321x167.jpg" crc="4249916270" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="2015-04-20 19-35-59 adobe flash player 16322x193.jpg" crc="3899598684" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
     <file name="green320x214.jpg" crc="199018100" seo="true" ref="dungeon-part-1-tiles">
-      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
       <caption webpage="dungeon-part-1-tiles" alt=""/>
+      <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
   </folder>
   <file name="index.html" crc="439730036" seo="true" mt="1514664393209" redirect="true"/>
   <file name="adventure-tileset.html" crc="93829564" seo="true" mt="1514663437149" redirect="true"/>
   <file name="isometric-dungeon-tileset.html" crc="3993262568" seo="true" mt="1514663437149" redirect="true"/>
-  <file name="dungeon-part-1-tiles.html" crc="3782685096" seo="true" mt="1514664393212" redirect="true"/>
+  <file name="dungeon-part-1-tiles.html" crc="4201319413" seo="true" mt="1514665671458" redirect="true"/>
 </manifest>
