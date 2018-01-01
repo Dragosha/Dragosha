@@ -1,15 +1,15 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="dragosha.com/free" resolutions="1x" timestamp="1514665699771">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="dragosha.com/free" resolutions="1x" timestamp="1514823760646">
   <folder name="css">
-    <file name="site_global.css" crc="205758438"/>
-    <file name="master_a-master.css" crc="123499343" ref="index:adventure-tileset:isometric-dungeon-tileset:dungeon-part-1-tiles"/>
+    <file name="site_global.css" crc="3926070480"/>
+    <file name="master_a-master.css" crc="3813524091" ref="index:adventure-tileset:isometric-dungeon-tileset:dungeon-part-1-tiles"/>
     <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="index:adventure-tileset:isometric-dungeon-tileset:dungeon-part-1-tiles"/>
-    <file name="index.css" crc="191813497" ref="index"/>
-    <file name="adventure-tileset.css" crc="4263110803" ref="adventure-tileset"/>
-    <file name="nomq_adventure-tileset.css" crc="419125046" ref="adventure-tileset"/>
-    <file name="isometric-dungeon-tileset.css" crc="4251071083" ref="isometric-dungeon-tileset"/>
-    <file name="nomq_isometric-dungeon-tileset.css" crc="4187572985" ref="isometric-dungeon-tileset"/>
-    <file name="dungeon-part-1-tiles.css" crc="4145710420" ref="dungeon-part-1-tiles"/>
-    <file name="nomq_dungeon-part-1-tiles.css" crc="28172402" ref="dungeon-part-1-tiles"/>
+    <file name="index.css" crc="363493399" ref="index"/>
+    <file name="adventure-tileset.css" crc="204113833" ref="adventure-tileset"/>
+    <file name="nomq_adventure-tileset.css" crc="4193550713" ref="adventure-tileset"/>
+    <file name="isometric-dungeon-tileset.css" crc="3846032975" ref="isometric-dungeon-tileset"/>
+    <file name="nomq_isometric-dungeon-tileset.css" crc="3779463229" ref="isometric-dungeon-tileset"/>
+    <file name="dungeon-part-1-tiles.css" crc="4110730618" ref="dungeon-part-1-tiles"/>
+    <file name="nomq_dungeon-part-1-tiles.css" crc="457935085" ref="dungeon-part-1-tiles"/>
   </folder>
   <folder name="assets">
     <file name="tiles.zip" crc="4025311582" seo="true" mt="1514647829000"/>
@@ -22,8 +22,8 @@
     <file name="whatinput.js" crc="86476730" ref="index:adventure-tileset:isometric-dungeon-tileset:dungeon-part-1-tiles"/>
     <file name="museconfig.js" crc="278381782" ref="index:adventure-tileset:isometric-dungeon-tileset:dungeon-part-1-tiles"/>
     <file name="jquery.musemenu.js" crc="4286030528" ref="index"/>
-    <file name="jquery.watch.js" crc="4240030481" ref="index:adventure-tileset:isometric-dungeon-tileset:dungeon-part-1-tiles"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:adventure-tileset:isometric-dungeon-tileset"/>
+    <file name="jquery.watch.js" crc="4240030481" ref="adventure-tileset:isometric-dungeon-tileset:dungeon-part-1-tiles"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:adventure-tileset:isometric-dungeon-tileset:dungeon-part-1-tiles"/>
     <file name="require.js" crc="3861931657" ref="index:adventure-tileset:isometric-dungeon-tileset:dungeon-part-1-tiles"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="3854337258" ref="adventure-tileset:isometric-dungeon-tileset"/>
     <file name="jquery.scrolleffects.js" crc="232371266" ref="adventure-tileset:isometric-dungeon-tileset"/>
@@ -395,8 +395,8 @@
       <caption webpage="the-dungeon.-part-1.-tiles" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="439730036" seo="true" mt="1514664393209" redirect="true"/>
-  <file name="adventure-tileset.html" crc="93829564" seo="true" mt="1514663437149" redirect="true"/>
-  <file name="isometric-dungeon-tileset.html" crc="3993262568" seo="true" mt="1514663437149" redirect="true"/>
-  <file name="dungeon-part-1-tiles.html" crc="4201319413" seo="true" mt="1514665671458" redirect="true"/>
+  <file name="index.html" crc="444467187" seo="true" mt="1514823411877" redirect="true"/>
+  <file name="adventure-tileset.html" crc="160782050" seo="true" mt="1514823411877" redirect="true"/>
+  <file name="isometric-dungeon-tileset.html" crc="386295635" seo="true" mt="1514823411877" redirect="true"/>
+  <file name="dungeon-part-1-tiles.html" crc="4115853548" seo="true" mt="1514823568451" redirect="true"/>
 </manifest>
