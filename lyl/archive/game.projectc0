@@ -1,0 +1,95 @@
+[project]
+title = LookYourLoot
+custom_resources = /res/LookYourLoot texts - texts.json
+version = 0.854
+
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /helper/fixed_aspect_ratio.renderc
+
+[input]
+game_binding = /input/game.input_bindingc
+gamepads = /builtins/input/default.gamepadsc
+
+[display]
+width = 720
+height = 1024
+
+[physics]
+scale = 0.02
+debug = 0
+max_collisions = 256
+max_contacts = 256
+gravity_y = -100
+
+[script]
+shared_state = 1
+
+[android]
+iap_provider = GooglePlay
+package = com.dragosha.hamster
+app_icon_36x36 = /icons-2/app_icon36.png
+app_icon_48x48 = /icons-2/app_icon48.png
+app_icon_72x72 = /icons-2/app_icon72.png
+app_icon_96x96 = /icons-2/app_icon96.png
+app_icon_144x144 = /icons-2/app_icon144.png
+app_icon_192x192 = /icons-2/app_icon192.png
+manifest = /AndroidManifest.xml
+version_code = 24
+immersive_mode = 1
+
+[sprite]
+max_count = 512
+
+[resource]
+max_resources = 1000
+
+[collection]
+max_instances = 256
+
+[graphics]
+max_debug_vertices = 50000
+texture_profiles = /hamster.texture_profiles
+
+[osx]
+bundle_identifier = com.dragosha.hamster
+
+[ios]
+bundle_identifier = com.dragosha.hamster
+
+[tracking]
+app_id = 2C27F9B5B467B496
+
+[facebook]
+appid = 769008583268958
+
+[googleanalytics]
+tracking_id = UA-103054571-1
+dispatch_period = 45
+queue_save_period = 60
+verbose = 1
+
+[admob]
+app_id_android = ca-app-pub-7392556405265770~3587974300
+
+[spine]
+max_count = 16
+
+[html5]
+htmlfile = /index.html
+
+[iap]
+auto_finish_transactions = 0
+
+[particle_fx]
+max_count = 200
+
+[native_extension]
+app_manifest = /release_engine.appmanifest
+
+[label]
+max_count = 128
+
+[collection_proxy]
+max_count = 16
+
