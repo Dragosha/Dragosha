@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="false" exportTarget="other" domain="dragosha.com" resolutions="1x" timestamp="1510731142529">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="false" exportTarget="other" domain="dragosha.com" resolutions="1x" timestamp="1530021776332">
   <folder name="css">
     <file name="site_global.css" crc="123077045"/>
-    <file name="index.css" crc="80095329" ref="index"/>
-    <file name="nomq_index.css" crc="4152777729" ref="index"/>
+    <file name="index.css" crc="5979217" ref="index"/>
+    <file name="nomq_index.css" crc="4239870210" ref="index"/>
     <file name="privacy-policy.css" crc="4198356279" ref="privacy-policy"/>
   </folder>
   <folder name="scripts">
@@ -90,7 +90,12 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="download-on-the-app-store.png" crc="496998327" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="3772405024" seo="true" mt="1510731075818" redirect="true"/>
+  <file name="index.html" crc="331257848" seo="true" mt="1530021729496" redirect="true"/>
   <file name="privacy-policy.html" crc="142730154" seo="true" mt="1510729030955" redirect="true"/>
 </manifest>
