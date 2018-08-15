@@ -1,7 +1,7 @@
 [project]
 title = LookYourLoot
 custom_resources = /res/LookYourLoot texts - texts.json
-version = 0.927
+version = 0.971
 
 [bootstrap]
 main_collection = /main/main.collectionc
@@ -35,7 +35,7 @@ app_icon_96x96 = /icons-2/app_icon96.png
 app_icon_144x144 = /icons-2/app_icon144.png
 app_icon_192x192 = /icons-2/app_icon192.png
 manifest = /AndroidManifest.xml
-version_code = 42
+version_code = 54
 immersive_mode = 1
 
 [sprite]
@@ -73,6 +73,13 @@ launch_image_1242x2208 = /icons-2/launch1242x2208.png
 launch_image_2048x2732 = /icons-2/launch2048x2732.png
 launch_image_1125x2436 = /icons-2/launch1125x2436.png
 launch_image_320x480 = /icons-2/launch320x480.png
+launch_image_1024x768 = /icons-2/launch1024x768.png
+launch_image_2208x1242 = /icons-2/launch2208x1242.png
+launch_image_2048x1536 = /icons-2/launch2048x1536.png
+launch_image_2732x2048 = /icons-2/launch2732x2048.png
+launch_image_2436x1125 = /icons-2/launch2436x1125.png
+launch_image_1334x750 = /icons-2/launch1334x750.png
+launch_image_640x1136 = /icons-2/launch640x1136.png
 
 [tracking]
 app_id = 2C27F9B5B467B496
