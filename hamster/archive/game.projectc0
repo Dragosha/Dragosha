@@ -1,7 +1,7 @@
 [project]
 title = LookYourLoot
 custom_resources = /res/LookYourLoot texts - texts.json
-version = 0.971
+version = 0.975
 
 [bootstrap]
 main_collection = /main/main.collectionc
