@@ -1,7 +1,7 @@
 [project]
 title = LookYourLoot
 custom_resources = /res/LookYourLoot texts - texts.json
-version = 0.975
+version = 0.98
 
 [bootstrap]
 main_collection = /main/main.collectionc
@@ -35,7 +35,7 @@ app_icon_96x96 = /icons-2/app_icon96.png
 app_icon_144x144 = /icons-2/app_icon144.png
 app_icon_192x192 = /icons-2/app_icon192.png
 manifest = /AndroidManifest.xml
-version_code = 54
+version_code = 56
 immersive_mode = 1
 
 [sprite]
@@ -112,7 +112,7 @@ max_count = 200
 app_manifest = /release_engine.appmanifest
 
 [label]
-max_count = 128
+max_count = 256
 
 [collection_proxy]
 max_count = 16
