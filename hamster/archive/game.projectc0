@@ -143,7 +143,7 @@ bundle_identifier = com.dragosha.hamster
 [html5]
 custom_heap_size = 0
 include_dev_tool = 0
-htmlfile = /res/engine_template.html
+htmlfile = /builtins/manifests/web/engine_template.html
 archive_location_prefix = archive
 splash_image = /res/splash_image.jpg
 
