@@ -141,11 +141,12 @@ bundle_identifier = com.dragosha.hamster
 [windows]
 
 [html5]
-custom_heap_size = 0
+custom_heap_size = 268435456
 include_dev_tool = 0
 htmlfile = /res/engine_template.html
 archive_location_prefix = archive
 splash_image = /res/splash_image.jpg
+set_custom_heap_size = 1
 
 [particle_fx]
 max_count = 200

@@ -57,8 +57,9 @@
 		position: absolute;
 		background-color: rgb(245, 245, 245);
 		height: 20px;
-		/* Progress same width as canvas. */
-		width: 720px;
+		/* Progress same width as canvas.
+		width: 720px;*/
+        width: 100%;
 		bottom: 0px;
 	}
 
@@ -91,7 +92,7 @@
     }
 	</style>
 
-	
+
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Look, your loot! Card crawler">
     <meta name="twitter:image" content="http://dragosha.com/hamster/splash_image.jpg">
@@ -119,7 +120,7 @@
 
 
 	<!-- -->
-	
+
 	<script type='text/javascript' src="dmloader.js"></script>
 	<!-- -->
 
@@ -128,9 +129,9 @@
 		archive_location_filter: function( path ) {
 			return ("archive" + path + "");
 		},
-		
+
 		splash_image: "splash_image.jpg",
-		custom_heap_size: 268435456
+		custom_heap_size: 400435456
 	}
 
 	Module['onRuntimeInitialized'] = function() {
