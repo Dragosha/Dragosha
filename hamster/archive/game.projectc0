@@ -1,6 +1,6 @@
 [project]
 title = LookYourLoot
-version = 0.985
+version = 0.988
 write_log = 0
 compress_archive = 1
 custom_resources = /res/LookYourLoot texts - texts.json
@@ -120,7 +120,7 @@ launch_image_1334x750 = /icons-2/launch1334x750.png
 launch_image_640x1136 = /icons-2/launch640x1136.png
 
 [android]
-version_code = 60
+version_code = 63
 package = com.dragosha.hamster
 manifest = /AndroidManifest.xml
 iap_provider = GooglePlay
@@ -141,7 +141,7 @@ bundle_identifier = com.dragosha.hamster
 [windows]
 
 [html5]
-custom_heap_size = 268435456
+custom_heap_size = 400435456
 include_dev_tool = 0
 htmlfile = /res/engine_template.html
 archive_location_prefix = archive
