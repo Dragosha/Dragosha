@@ -141,7 +141,7 @@ bundle_identifier = com.dragosha.hamster
 [windows]
 
 [html5]
-custom_heap_size = 400435456
+custom_heap_size = 600435456
 include_dev_tool = 0
 htmlfile = /res/engine_template.html
 archive_location_prefix = archive
