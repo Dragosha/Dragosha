@@ -146,7 +146,7 @@ include_dev_tool = 0
 htmlfile = /res/engine_template.html
 archive_location_prefix = archive
 splash_image = /res/splash_image.jpg
-set_custom_heap_size = 1
+set_custom_heap_size = 0
 
 [particle_fx]
 max_count = 200
