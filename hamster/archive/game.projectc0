@@ -1,6 +1,6 @@
 [project]
 title = LookYourLoot
-version = 0.988
+version = 0.99
 write_log = 0
 compress_archive = 1
 custom_resources = /res/LookYourLoot texts - texts.json
@@ -120,9 +120,9 @@ launch_image_1334x750 = /icons-2/launch1334x750.png
 launch_image_640x1136 = /icons-2/launch640x1136.png
 
 [android]
-version_code = 63
+version_code = 64
 package = com.dragosha.hamster
-manifest = /AndroidManifest.xml
+manifest = /builtins/manifests/android/AndroidManifest.xml
 iap_provider = GooglePlay
 input_method = KeyEvent
 immersive_mode = 1
