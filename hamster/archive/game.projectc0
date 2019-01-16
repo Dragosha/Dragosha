@@ -122,7 +122,7 @@ launch_image_640x1136 = /icons-2/launch640x1136.png
 [android]
 version_code = 64
 package = com.dragosha.hamster
-manifest = /builtins/manifests/android/AndroidManifest.xml
+manifest = /res/AndroidManifest.xml
 iap_provider = GooglePlay
 input_method = KeyEvent
 immersive_mode = 1
