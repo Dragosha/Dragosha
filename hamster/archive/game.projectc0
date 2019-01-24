@@ -1,6 +1,6 @@
 [project]
 title = LookYourLoot
-version = 0.99
+version = 0.991
 write_log = 0
 compress_archive = 1
 custom_resources = /res/LookYourLoot texts - texts.json
