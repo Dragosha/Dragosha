@@ -33,7 +33,7 @@ ray_cast_limit_3d = 128
 trigger_overlap_capacity = 16
 
 [bootstrap]
-main_collection = /main/main_copy.collectionc
+main_collection = /main/scene.collectionc
 render = /rendercam/rendercam.renderc
 
 [graphics]
@@ -59,7 +59,7 @@ max_resources = 1024
 repeat_delay = 0.5
 repeat_interval = 0.2
 gamepads = /builtins/input/default.gamepadsc
-game_binding = /input/game.input_bindingc
+game_binding = /in/bindings/all.input_bindingc
 use_accelerometer = 0
 
 [sprite]
@@ -106,10 +106,10 @@ debuggable = 0
 [osx]
 infoplist = /builtins/manifests/osx/Info.plist
 bundle_identifier = example.unnamed
-app_icon = /assets/appicons/appicon.icns
+app_icon = /assets/app_icons/appicon.icns
 
 [windows]
-app_icon = /assets/appicons/appicon.ico
+app_icon = /assets/app_icons/appicon.ico
 
 [html5]
 custom_heap_size = 0
