@@ -1,13 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, minimal-ui">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-	<title>Look, your loot! Card crawler</title>
-	<style>
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, minimal-ui"> 
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags --> 
+  <title>LookYourLoot 1.0</title> 
+  <style type="text/css">
 	/* Disable user selection to avoid strange bug in Chrome on Windows:
 	* Selecting a text outside the canvas, then clicking+draging would
 	* drag the selected text but block mouse down/up events to the engine.
@@ -21,30 +20,10 @@
 		user-select: none;
 	}
 
-	/* DEF-3413
-	* The Facebook container will be populated with the Facebook SDK content
-	* when a Facebook App Id is provided in game.project.
-	* This caused problems with selections in Chrome on Windows, just like
-	* above. Explicitly disabling selection on the root div fixes the issue.
-	*/
-	.fb-root {
-		-webkit-touch-callout: none;
-		-webkit-user-select: none;
-		-khtml-user-select: none;
-		-moz-user-select: none;
-		-ms-user-select: none;
-		user-select: none;
-	}
-
 	.canvas-app-container {
-        /* A positioned parent for loading visuals */
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-        background: #0e1618;
+		background: rgb(255,255,255) no-repeat center url("try_game.png");
+		/* A positioned parent for loading visuals */
+		position: relative;
 	}
 
 	.canvas-app-container:-webkit-full-screen {
@@ -53,13 +32,17 @@
 		height: auto;
 	}
 
+	.canvas-app-canvas {
+		max-height: 100vh;
+		max-width: 100%;
+	}
+
 	.canvas-app-progress {
 		position: absolute;
 		background-color: rgb(245, 245, 245);
 		height: 20px;
-		/* Progress same width as canvas.
-		width: 720px;*/
-        width: 100%;
+		/* Progress same width as canvas. */
+		width: 720px;
 		bottom: 0px;
 	}
 
@@ -71,7 +54,32 @@
 		text-align: center;
 		line-height: 20px;
 	}
-    /* Custom styles*/
+
+	.button {
+		color: #fff;
+		background-color: #1e64ea;
+		border-color: transparent;
+		padding: 10px 20px;
+	}
+
+
+
+	/*Override CSS for full screen*/
+	.canvas-app-progress {
+		 width: 100%;
+	}
+	.canvas-app-container {
+        /* A positioned parent for loading visuals */
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        background: #0e1618;
+	}
+
+	/* Custom styles*/
     * { margin:0; padding:0; }
 
     #ads{text-align: center;}
@@ -90,17 +98,15 @@
     div {
       -webkit-tap-highlight-color: rgba(0,0,0,0);
     }
-	</style>
 
-	
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Look, your loot! Card crawler">
-    <meta name="twitter:image" content="http://dragosha.com/hamster/splash_image.jpg">
-</head>
-
-<body oncontextmenu="return false;">
-    <!-- GA -->
-    <script>
+	</style> 
+  <meta name="twitter:card" content="summary_large_image"> 
+  <meta name="twitter:title" content="Look, your loot! Card crawler"> 
+  <meta name="twitter:image" content="http://dragosha.com/hamster/splash_image.jpg"> 
+ </head> 
+ <body> 
+  <!-- GA --> 
+  <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -108,30 +114,24 @@
 
       ga('create', 'UA-51444102-1', 'auto');
       ga('send', 'pageview');
-    </script>
-    <!-- /GA -->
-
-	<div id="fb-root" class="fb-root"></div>
-
-	<div id="app-container" class="canvas-app-container">
-		<canvas id="canvas" class="canvas-app-canvas" tabindex="1" width="720" height="1024"></canvas>
-	</div>
-
-
-
-	<!-- -->
-	
-	<script type='text/javascript' src="dmloader.js"></script>
-	<!-- -->
-
-	<script type='text/javascript'>
+    </script> 
+  <!-- /GA --> 
+  <div id="app-container" class="canvas-app-container"> 
+   <canvas id="canvas" class="canvas-app-canvas" tabindex="1" width="720" height="1280"></canvas> 
+  </div> 
+  <!--<button id="fullscreen" class="button">Fullscreen</button>--> 
+  <!-- --> 
+  <script id="engine-loader" type="text/javascript" src="dmloader.js"></script> 
+  <!-- --> 
+  <script id="engine-setup" type="text/javascript">
 	var extra_params = {
 		archive_location_filter: function( path ) {
 			return ("archive" + path + "");
 		},
-		
+		engine_arguments: [],
 		splash_image: "splash_image.jpg",
-		custom_heap_size: 400435456
+		custom_heap_size: 400435456,
+		disable_context_menu: true
 	}
 
 	Module['onRuntimeInitialized'] = function() {
@@ -159,23 +159,12 @@
 		document.head.appendChild(engineJS);
 	}
 
-	/* Fullscreen button
+	/* Fullscreen button 
 	document.getElementById("fullscreen").onclick = function (e) {
 		Module.toggleFullscreen();
 	}; */
 
-	if (true) {
-		// Load Facebook API
-		var fb = document.createElement('script');
-		fb.type = 'text/javascript';
-		fb.src = '//connect.facebook.net/en_US/sdk.js';
-		fb.onload = load_engine;
-		document.head.appendChild(fb);
-	} else {
-		load_engine();
-	}
-
-    /* Custom Code*/
+	/* Custom Code*/
     function resize_game_canvas() {
         var dpi=window.devicePixelRatio || 1
         //var dpi =1
@@ -231,6 +220,15 @@
      };}
      /* End of Custom Code*/
 
-	</script>
-</body>
+
+	</script> 
+  <script id="engine-start" type="text/javascript" merge="keep">
+        // Load Facebook API
+        var fb = document.createElement('script');
+        fb.type = 'text/javascript';
+        fb.src = '//connect.facebook.net/en_US/sdk.js';
+        fb.onload = load_engine;
+        document.head.appendChild(fb);
+    </script>   
+ </body>
 </html>

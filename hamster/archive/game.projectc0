@@ -1,13 +1,14 @@
 [project]
 title = LookYourLoot
-version = 0.991
+version = 1.0
 write_log = 0
 compress_archive = 1
+bundle_resources = /assets/bundle
 custom_resources = /res/LookYourLoot texts - texts.json
 
 [display]
 width = 720
-height = 1024
+height = 1280
 high_dpi = 0
 samples = 0
 fullscreen = 0
@@ -118,11 +119,15 @@ launch_image_2732x2048 = /icons-2/launch2732x2048.png
 launch_image_2436x1125 = /icons-2/launch2436x1125.png
 launch_image_1334x750 = /icons-2/launch1334x750.png
 launch_image_640x1136 = /icons-2/launch640x1136.png
+launch_image_1668x2224 = /icons-2/launch1668x2224.png
+launch_image_2224x1668 = /icons-2/launch2224x1668.png
 
 [android]
-version_code = 64
+version_code = 75
+minimum_sdk_version = 14
+target_sdk_version = 28
 package = com.dragosha.hamster
-manifest = /res/AndroidManifest.xml
+manifest = /builtins/manifests/android/AndroidManifest.xml
 iap_provider = GooglePlay
 input_method = KeyEvent
 immersive_mode = 1
@@ -143,7 +148,7 @@ bundle_identifier = com.dragosha.hamster
 [html5]
 custom_heap_size = 400435456
 include_dev_tool = 0
-htmlfile = /res/engine_template.html
+htmlfile = /res/web/engine_template.html
 archive_location_prefix = archive
 splash_image = /res/splash_image.jpg
 set_custom_heap_size = 1
@@ -188,6 +193,10 @@ verbose = 1
 [admob]
 app_id_android = ca-app-pub-7392556405265770~3587974300
 
+[gpgs]
+app_id = 580923683857
+use_saved_games = 0
+
 [native_extension]
-app_manifest = /release_engine.appmanifest
+app_manifest = /generated.appmanifest
 
