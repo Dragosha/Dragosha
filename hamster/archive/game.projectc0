@@ -1,6 +1,6 @@
 [project]
 title = LookYourLoot
-version = 1.0
+version = 1.06
 write_log = 0
 compress_archive = 1
 bundle_resources = /assets/bundle
@@ -123,8 +123,8 @@ launch_image_1668x2224 = /icons-2/launch1668x2224.png
 launch_image_2224x1668 = /icons-2/launch2224x1668.png
 
 [android]
-version_code = 75
-minimum_sdk_version = 14
+version_code = 81
+minimum_sdk_version = 16
 target_sdk_version = 28
 package = com.dragosha.hamster
 manifest = /builtins/manifests/android/AndroidManifest.xml
@@ -146,12 +146,15 @@ bundle_identifier = com.dragosha.hamster
 [windows]
 
 [html5]
-custom_heap_size = 400435456
-include_dev_tool = 0
-htmlfile = /res/web/engine_template.html
+custom_heap_size = 0
+heap_size = 256
+htmlfile = /res/manifests/web/engine_template.html
+cssfile = /builtins/manifests/web/dark_theme.css
 archive_location_prefix = archive
+show_fullscreen_button = 1
+show_made_with_defold = 1
+scale_mode = fit
 splash_image = /res/splash_image.jpg
-set_custom_heap_size = 1
 
 [particle_fx]
 max_count = 200
@@ -168,9 +171,6 @@ http_timeout = 0
 [script]
 shared_state = 1
 
-[tracking]
-app_id = 2C27F9B5B467B496
-
 [label]
 max_count = 256
 subpixels = 1
@@ -180,6 +180,10 @@ track_cpu = 0
 
 [liveupdate]
 settings = /liveupdate.settings
+
+[tilemap]
+max_count = 16
+max_tile_count = 2048
 
 [facebook]
 appid = 769008583268958
