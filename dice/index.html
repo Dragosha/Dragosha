@@ -7,7 +7,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>Roll dice twice and one more time 1.0</title>
+	<title>Roll dice 1.0</title>
 	<style type='text/css'>
 	/* Disable user selection to avoid strange bug in Chrome on Windows:
 	* Selecting a text outside the canvas, then clicking+draging would
@@ -170,7 +170,7 @@
 		// dmengine*.wasm is hardcoded in the built JS loader for WASM,
 		// we need to replace it here with the correct project name.
 		if (path == "dmengine.wasm" || path == "dmengine_release.wasm" || path == "dmengine_headless.wasm") {
-			path = "Rolldicetwiceandonemoretime.wasm";
+			path = "Rolldice.wasm";
 		}
 		return scriptDirectory + path;
 	};
@@ -231,9 +231,9 @@
 		var engineJS = document.createElement('script');
 		engineJS.type = 'text/javascript';
 		if (Module['isWASMSupported']) {
-			engineJS.src = 'Rolldicetwiceandonemoretime_wasm.js';
+			engineJS.src = 'Rolldice_wasm.js';
 		} else {
-			engineJS.src = 'Rolldicetwiceandonemoretime_asmjs.js';
+			engineJS.src = 'Rolldice_asmjs.js';
 		}
 		document.head.appendChild(engineJS);
 	}
@@ -251,6 +251,6 @@
       ga('create', 'UA-51444102-1', 'auto');
       ga('send', 'pageview');
     </script> 
-  	<!-- /GA --> 
+  <!-- /GA -->  
 </body>
 </html>

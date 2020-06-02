@@ -1,5 +1,5 @@
 [project]
-title = Roll dice twice and one more time
+title = Roll dice
 version = 1.0
 write_log = 0
 compress_archive = 1
@@ -99,7 +99,7 @@ max_count = 128
 
 [ios]
 pre_renderered_icons = 0
-bundle_identifier = com.dragosha.example.meshandtrash
+bundle_identifier = com.dragosha.dice
 infoplist = /builtins/manifests/ios/Info.plist
 default_language = en
 localizations = en
@@ -108,7 +108,7 @@ localizations = en
 version_code = 1
 minimum_sdk_version = 16
 target_sdk_version = 28
-package = com.dragosha.example.meshandtrash
+package = com.dragosha.dice
 manifest = /builtins/manifests/android/AndroidManifest.xml
 iap_provider = GooglePlay
 input_method = HiddenInputField
@@ -117,7 +117,7 @@ debuggable = 0
 
 [osx]
 infoplist = /builtins/manifests/osx/Info.plist
-bundle_identifier = com.dragosha.example.meshandtrash
+bundle_identifier = com.dragosha.dice
 default_language = en
 localizations = en
 
