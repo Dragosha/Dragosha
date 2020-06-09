@@ -7,7 +7,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>3d + Astar</title>
+	<title>Dice 1.0</title>
 	<style type='text/css'>
 	/* Disable user selection to avoid strange bug in Chrome on Windows:
 	* Selecting a text outside the canvas, then clicking+draging would
@@ -170,7 +170,7 @@
 		// dmengine*.wasm is hardcoded in the built JS loader for WASM,
 		// we need to replace it here with the correct project name.
 		if (path == "dmengine.wasm" || path == "dmengine_release.wasm" || path == "dmengine_headless.wasm") {
-			path = "Rolldice.wasm";
+			path = "Dice.wasm";
 		}
 		return scriptDirectory + path;
 	};
@@ -231,9 +231,9 @@
 		var engineJS = document.createElement('script');
 		engineJS.type = 'text/javascript';
 		if (Module['isWASMSupported']) {
-			engineJS.src = 'Rolldice_wasm.js';
+			engineJS.src = 'Dice_wasm.js';
 		} else {
-			engineJS.src = 'Rolldice_asmjs.js';
+			engineJS.src = 'Dice_asmjs.js';
 		}
 		document.head.appendChild(engineJS);
 	}

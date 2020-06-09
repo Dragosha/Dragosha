@@ -1,5 +1,5 @@
 [project]
-title = Roll dice
+title = Dice
 version = 1.0
 write_log = 0
 compress_archive = 1
@@ -7,7 +7,7 @@ compress_archive = 1
 [display]
 width = 1280
 height = 720
-high_dpi = 0
+high_dpi = 1
 samples = 0
 fullscreen = 0
 update_frequency = 0
@@ -39,7 +39,7 @@ ray_cast_limit_3d = 128
 trigger_overlap_capacity = 16
 
 [bootstrap]
-main_collection = /main/level/main.collectionc
+main_collection = /main/scene.collectionc
 render = /rendercam/rendercam.renderc
 
 [graphics]
