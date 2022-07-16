@@ -17,7 +17,7 @@ update_frequency = 0
 swap_interval = 1
 vsync = 1
 display_profiles = /builtins/render/default.display_profilesc
-dynamic_orientation = 1
+dynamic_orientation = 0
 display_device_info = 0
 
 [render]
@@ -116,6 +116,7 @@ max_count = 128
 launch_screen = /builtins/manifests/ios/LaunchScreen.storyboardc
 pre_renderered_icons = 0
 bundle_identifier = com.dragosha.battlewagons
+bundle_name = 
 infoplist = /builtins/manifests/ios/Info.plist
 default_language = en
 localizations = en
@@ -123,23 +124,28 @@ localizations = en
 [android]
 version_code = 1
 minimum_sdk_version = 16
-target_sdk_version = 30
+target_sdk_version = 31
 package = com.dragosha.battlewagons
+gcm_sender_id = 
 manifest = /builtins/manifests/android/AndroidManifest.xml
 iap_provider = GooglePlay
 input_method = HiddenInputField
 immersive_mode = 0
 display_cutout = 1
 debuggable = 0
+proguard = 
 
 [osx]
+app_icon = 
 infoplist = /builtins/manifests/osx/Info.plist
 bundle_identifier = com.dragosha.battlewagons
+bundle_name = 
 bundle_version = 1
 default_language = en
 localizations = en
 
 [windows]
+app_icon = 
 
 [html5]
 custom_heap_size = 0
@@ -147,6 +153,8 @@ heap_size = 256
 htmlfile = /builtins/manifests/web/engine_template.html
 cssfile = /builtins/manifests/web/dark_theme.css
 archive_location_prefix = archive
+archive_location_suffix = 
+engine_arguments = 
 wasm_streaming = 0
 show_fullscreen_button = 0
 show_made_with_defold = 0
@@ -163,10 +171,12 @@ auto_finish_transactions = 1
 
 [network]
 http_timeout = 0
+ssl_certificates = 
 http_thread_count = 4
 http_cache_enabled = 1
 
 [library]
+include_dirs = 
 
 [script]
 shared_state = 1
@@ -192,4 +202,7 @@ fixed_update_frequency = 60
 
 [yagames]
 sdk_init_options = { orientation: { value: "landscape", lock: true } }
+
+[native_extension]
+app_manifest = /generated.appmanifest
 
