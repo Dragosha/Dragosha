@@ -1,6 +1,6 @@
 [project]
 title = Light and Shadows
-version = 0.2
+version = 0.3
 write_log = 0
 compress_archive = 1
 publisher = unnamed
@@ -48,7 +48,7 @@ velocity_threshold = 1
 max_fixed_timesteps = 2
 
 [bootstrap]
-main_collection = /examples/example1/scene.collectionc
+main_collection = /examples/main.collectionc
 render = /rendercam/rendercam.renderc
 
 [graphics]
