@@ -27,19 +27,19 @@ clear_color_blue = 0
 clear_color_alpha = 0
 
 [physics]
-type = 3D
-use_fixed_timestep = 1
-gravity_y = -90.0
+type = 2D
+use_fixed_timestep = 0
+gravity_y = -10
 debug = 0
 debug_alpha = 0.9
 world_count = 4
 gravity_x = 0
 gravity_z = 0
-scale = 0.1
+scale = 1
 allow_dynamic_transforms = 1
 debug_scale = 30
-max_collisions = 256
-max_contacts = 256
+max_collisions = 64
+max_contacts = 128
 contact_impulse_limit = 0
 ray_cast_limit_2d = 64
 ray_cast_limit_3d = 128
@@ -85,7 +85,7 @@ game_binding = /builtins/input/all.input_bindingc
 use_accelerometer = 1
 
 [sprite]
-max_count = 1024
+max_count = 512
 subpixels = 1
 
 [model]
@@ -182,7 +182,7 @@ include_dirs =
 shared_state = 1
 
 [label]
-max_count = 256
+max_count = 64
 subpixels = 1
 
 [profiler]
@@ -200,7 +200,4 @@ max_tile_count = 2048
 [engine]
 run_while_iconified = 0
 fixed_update_frequency = 60
-
-[yagames]
-sdk_init_options = { orientation: { value: "landscape", lock: true } }
 
