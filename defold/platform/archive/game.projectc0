@@ -1,6 +1,6 @@
 [project]
 title = platform
-version = 0.03
+version = 0.04
 write_log = 0
 compress_archive = 1
 publisher = unnamed
