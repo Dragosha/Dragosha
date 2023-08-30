@@ -1,11 +1,11 @@
 [project]
-title = demo
+title = Trucks
 version = 0.03
 write_log = 0
 compress_archive = 1
 publisher = unnamed
 developer = Igor Suntsev
-title_as_file_name = demo
+title_as_file_name = Trucks
 
 [display]
 width = 1280
@@ -151,7 +151,7 @@ app_icon =
 
 [html5]
 custom_heap_size = 0
-heap_size = 256
+heap_size = 128
 htmlfile = /builtins/manifests/web/engine_template.html
 cssfile = /builtins/manifests/web/dark_theme.css
 archive_location_prefix = archive
