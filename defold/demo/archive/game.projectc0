@@ -1,6 +1,6 @@
 [project]
 title = Trucks
-version = 0.03
+version = 0.04
 write_log = 0
 compress_archive = 1
 publisher = unnamed
@@ -68,8 +68,8 @@ output_spirv = 0
 [sound]
 gain = 1
 max_sound_data = 128
-max_sound_buffers = 32
-max_sound_sources = 16
+max_sound_buffers = 16
+max_sound_sources = 8
 max_sound_instances = 256
 max_component_count = 32
 use_thread = 1
