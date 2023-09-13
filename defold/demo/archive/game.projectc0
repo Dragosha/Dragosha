@@ -1,6 +1,6 @@
 [project]
 title = Trucks
-version = 0.04
+version = 0.05
 write_log = 0
 compress_archive = 1
 publisher = unnamed
