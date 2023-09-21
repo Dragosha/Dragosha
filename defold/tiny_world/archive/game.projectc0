@@ -1,6 +1,6 @@
 [project]
 title = tiny_world
-version = 0.01
+version = 0.02
 write_log = 0
 compress_archive = 1
 publisher = unnamed
