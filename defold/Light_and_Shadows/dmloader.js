@@ -215,9 +215,9 @@ var FileLoader = {
 var EngineLoader = {
     
     
-    wasm_size: 2609665,
+    wasm_size: 2679055,
     
-    wasmjs_size: 265248,
+    wasmjs_size: 265314,
     
     asmjs_size: 4000000,
     wasm_instantiate_progress: 0,
@@ -251,6 +251,7 @@ var EngineLoader = {
                     }
                 }
                 var wasmInstantiate = WebAssembly.instantiate(new Uint8Array(wasm), imports).then(function(output) {
+                    Module.instance = output.instance;
                     successCallback(output.instance);
                 }).catch(function(e) {
                     console.log('wasm instantiation failed! ' + e);
@@ -290,6 +291,7 @@ var EngineLoader = {
 
         WebAssembly.instantiateStreaming(fetchFn(src), imports).then(function(output) {
             ProgressUpdater.updateCurrent(EngineLoader.wasm_instantiate_progress);
+            Module.instance = output.instance;
             successCallback(output.instance);
         }).catch(function(e) {
             console.log('wasm streaming instantiation failed! ' + e);
@@ -835,8 +837,8 @@ var Progress = {
 /* ********************************************************************* */
 
 var Module = {
-    engineVersion: "1.10.0",
-    engineSdkSha1: "a8219fe5a1973a83341334af50017005f34bbb1f",
+    engineVersion: "1.10.1",
+    engineSdkSha1: "2783cc609cd52bc5ac92ec9e35b9b854f5f07882",
     noInitialRun: true,
 
     _filesToPreload: [],
