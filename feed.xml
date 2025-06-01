@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Dragosha games</title>
+    <link href="https://dragosha.com/feed.xml" rel="self" />
+    <link href="https://dragosha.com" />
+    <updated>2025-06-01T18:10:59+05:00</updated>
+    <author>
+        <name>me</name>
+    </author>
+    <id>https://dragosha.com</id>
+
+    <entry>
+        <title>The dungeon</title>
+        <author>
+            <name>me</name>
+        </author>
+        <link href="https://dragosha.com/the-dungeon/"/>
+        <id>https://dragosha.com/the-dungeon/</id>
+            <category term="assets"/>
+
+        <updated>2025-06-01T16:00:49+05:00</updated>
+            <summary>
+                <![CDATA[
+                    Download (Zip ~28.4Mb) I created this graphic for the turn-based tactical game Baronsgate Tactics (Xenofant). Unfortunately, the project will not be released; it has been&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <figure class="post__image post__image--wide">
+      <img loading="lazy" src="https://dragosha.com/media/posts/13/green.jpg" height="640" width="960" alt="" />
+      
+    </figure>
+
+  <p>
+    <b><a href="https://dragosha.com/free/assets/tiles.zip">Download</a></b> (Zip ~28.4Mb)
+  </p>
+
+    <blockquote class="blockquote">
+      CC BY. 4.0. Isometric dungeon tileset by Igor Suntsev is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0</a> International License.
+    </blockquote>
+
+    <h2 id="examples">
+      Examples:
+    </h2>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/13/gallery/2015-04-20-19-35-59-adobe-flash-player-16.jpg" data-size="798x476">
+        <img loading="lazy" src="https://dragosha.com/media/posts/13/gallery/2015-04-20-19-35-59-adobe-flash-player-16-thumbnail.jpg" height="458" width="768" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/13/gallery/2015-05-02-23-29-54-adobe-flash-player-16.jpg" data-size="550x327">
+        <img loading="lazy" src="https://dragosha.com/media/posts/13/gallery/2015-05-02-23-29-54-adobe-flash-player-16-thumbnail.jpg" height="327" width="550" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/13/gallery/2014-07-31-16-56-30-xenofantfla.jpg" data-size="800x480">
+        <img loading="lazy" src="https://dragosha.com/media/posts/13/gallery/2014-07-31-16-56-30-xenofantfla-thumbnail.jpg" height="461" width="768" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/13/gallery/2015-01-21-00-06-40-adobe-flash-player-11.jpg" data-size="797x477">
+        <img loading="lazy" src="https://dragosha.com/media/posts/13/gallery/2015-01-21-00-06-40-adobe-flash-player-11-thumbnail.jpg" height="460" width="768" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/13/gallery/2015-02-05-19-03-47-skrinshot-ekrana.jpg" data-size="729x383">
+        <img loading="lazy" src="https://dragosha.com/media/posts/13/gallery/2015-02-05-19-03-47-skrinshot-ekrana-thumbnail.jpg" height="383" width="729" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/13/gallery/2015-03-03-19-28-28-xenouifla.jpg" data-size="792x472">
+        <img loading="lazy" src="https://dragosha.com/media/posts/13/gallery/2015-03-03-19-28-28-xenouifla-thumbnail.jpg" height="458" width="768" alt="" />
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+
+  <ul>
+    <li>about 400 originals images (at 288dpi)
+</li><li>floors, tiles, borders, objects, light
+</li><li>fire and doors animation</li>
+  </ul>
+
+    <figure class="post__image post__image--full">
+      <img loading="lazy" src="https://dragosha.com/media/posts/13/2017-12-30_23-53-02.jpg" height="238" width="920" alt="" />
+      
+    </figure>
+
+    <h4 id="11-high-resolution">
+      1:1 High resolution:
+    </h4>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://dragosha.com/media/posts/13/tile21d.png" height="364" width="287" alt="" />
+      
+    </figure>
+
+  <p>
+    I created this graphic for the turn-based tactical game Baronsgate Tactics (Xenofant). Unfortunately, the project will not be released; it has been closed. This uses an unusual (non-mirrored) isometric projection. The graphics are available to use under a CC BY 4.0 licence.
+  </p>
+<div><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/hT_tsDrzeXg?si=JuG-2CFw7sKQNNv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Adventure tileset</title>
+        <author>
+            <name>me</name>
+        </author>
+        <link href="https://dragosha.com/adventure-tileset/"/>
+        <id>https://dragosha.com/adventure-tileset/</id>
+            <category term="assets"/>
+
+        <updated>2025-06-01T15:52:12+05:00</updated>
+            <summary>
+                <![CDATA[
+                    51 images (at 144dpi), include: 6 non animated NPC Sprites sheet (Starling, 72dpi) Download (Zip ~ 1.12 Mb) Demo
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <figure class="post__image post__image--wide">
+      <img loading="lazy" src="https://dragosha.com/media/posts/12/adventure-tileset-u127-fr.png" height="752" width="963" alt="" />
+      
+    </figure>
+
+  <ul>
+    <li>51 images (at 144dpi), include: 6 non animated NPC
+</li><li>Sprites sheet (Starling, 72dpi)</li>
+  </ul>
+
+  <p>
+    <b><a href="https://dragosha.com/free/assets/adventure-tileset.zip">Download</a></b> (Zip ~ 1.12 Mb)
+  </p>
+
+    <blockquote class="blockquote">
+      CC BY. 4.0. Isometric dungeon tileset by Igor Suntsev is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0</a> International License.
+    </blockquote>
+
+    <h3 id="example">
+      Example
+    </h3>
+
+    <figure class="post__image post__image--wide">
+      <img loading="lazy" src="https://dragosha.com/media/posts/12/title.png" height="1025" width="1920" alt="" />
+      
+    </figure>
+
+  <p>
+    <b><a href="https://github.com/Dragosha/defold-light-and-shadows" target="_blank">Demo</a></b>
+  </p>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Isometric dungeon tileset </title>
+        <author>
+            <name>me</name>
+        </author>
+        <link href="https://dragosha.com/isometric-dungeon-tileset/"/>
+        <id>https://dragosha.com/isometric-dungeon-tileset/</id>
+            <category term="assets"/>
+
+        <updated>2025-06-01T15:41:24+05:00</updated>
+            <summary>
+                <![CDATA[
+                    Download (zip ~ 1Mb)
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <figure class="post__image post__image--wide">
+      <img loading="lazy" src="https://dragosha.com/media/posts/11/adventure3.png" height="790" width="1071" alt="" />
+      
+    </figure>
+
+  <p>
+    <a href="https://dragosha.com/free/assets/dungeon-tileset.zip"><b>Download</b></a> (zip ~ 1Mb)
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://dragosha.com/media/posts/11/crate2.png" height="185" width="167" alt="" />
+      
+    </figure>
+
+    <blockquote class="blockquote">
+      CC BY. 4.0. Isometric dungeon tileset  by Igor Suntsev is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0</a> International License.
+    </blockquote>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Goblin demo</title>
+        <author>
+            <name>me</name>
+        </author>
+        <link href="https://dragosha.com/goblin-platform/"/>
+        <id>https://dragosha.com/goblin-platform/</id>
+            <category term="html5"/>
+            <category term="demo"/>
+            <category term="defold"/>
+
+        <updated>2025-06-01T15:09:30+05:00</updated>
+            <summary>
+                <![CDATA[
+                    Play online (HTML5)
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/Zdya_tBvTZc?si=KBx5z8QiepH7cyAy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></div>
+
+  <p>
+    <a href="https://dragosha.com/defold/goblin/" target="_blank"><b>Play online</b></a> (HTML5)
+  </p>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>First person demo</title>
+        <author>
+            <name>me</name>
+        </author>
+        <link href="https://dragosha.com/first-person-demo/"/>
+        <id>https://dragosha.com/first-person-demo/</id>
+            <category term="html5"/>
+            <category term="demo"/>
+            <category term="defold"/>
+
+        <updated>2025-06-01T15:00:12+05:00</updated>
+            <summary>
+                <![CDATA[
+                    Play online&nbsp;(HTML5, WASD + mouse on PC, virtual pads on mobile). AIM assistant.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/6q-RRTSxqDs?si=AhkfmZ2lGDyPu_nn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></div>
+
+  <p>
+    <a href="https://dragosha.com/defold/fps/" target="_blank" class="" data-link-popup-id="d5caa704-4eeb-42b2-8e3d-811dd4e06177"><b>Play online</b></a>&nbsp;(HTML5, WASD + mouse on PC, virtual pads on mobile). AIM assistant.
+  </p>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Foggy Fox</title>
+        <author>
+            <name>me</name>
+        </author>
+        <link href="https://dragosha.com/foggy-fox/"/>
+        <id>https://dragosha.com/foggy-fox/</id>
+            <category term="html5"/>
+            <category term="game"/>
+            <category term="defold"/>
+
+        <updated>2025-06-01T14:44:39+05:00</updated>
+            <summary>
+                <![CDATA[
+                    Foggy Fox is a 3D action role-playing game where you control a fox who's on an adventure to collect loot and fight enemies. In this&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    Foggy Fox is a 3D action role-playing game where you control a fox who's on an adventure to collect loot and fight enemies. In this hack-and-slash journey, you will explore a magical kingdom where magical scrolls and spells are real, but so are dangerous monsters. Explore different worlds through portals, but in order to do that, you must get a key to unlock the power of the portal. So attack every foe you see in the game and loot them. You will drop the magical portal keys, new weapons, better armor, runes, and much more. You will also meet interesting NPCs along the way that might help you. Do you have slyness it takes to survive in these foggy lands?
+  </p>
+
+  <p>
+    <a href="https://poki.com/en/g/foggy-fox" target="_blank"><b>Play online</b></a>&nbsp;at Poki&nbsp;(HTML5)
+  </p>
+
+    <figure class="post__image post__image--wide">
+      <img loading="lazy" src="https://dragosha.com/media/posts/8/scr_b2.jpg" height="900" width="1600" alt="" />
+      
+    </figure>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/8/gallery/scr_b1.jpg" data-size="1600x900">
+        <img loading="lazy" src="https://dragosha.com/media/posts/8/gallery/scr_b1-thumbnail.jpg" height="432" width="768" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/8/gallery/scr_b3.jpg" data-size="1600x900">
+        <img loading="lazy" src="https://dragosha.com/media/posts/8/gallery/scr_b3-thumbnail.jpg" height="432" width="768" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/8/gallery/scr2-2.jpg" data-size="1600x900">
+        <img loading="lazy" src="https://dragosha.com/media/posts/8/gallery/scr2-2-thumbnail.jpg" height="432" width="768" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/8/gallery/scr5-2.jpg" data-size="1600x900">
+        <img loading="lazy" src="https://dragosha.com/media/posts/8/gallery/scr5-2-thumbnail.jpg" height="432" width="768" alt="" />
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Look, your loot!</title>
+        <author>
+            <name>me</name>
+        </author>
+        <link href="https://dragosha.com/look-your-loot/"/>
+        <id>https://dragosha.com/look-your-loot/</id>
+        <media:content url="https://dragosha.com/media/posts/2/splash_image.jpg" medium="image" />
+            <category term="ios"/>
+            <category term="html5"/>
+            <category term="game"/>
+            <category term="defold"/>
+            <category term="android"/>
+
+        <updated>2018-01-10T21:20:00+05:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://dragosha.com/media/posts/2/splash_image.jpg" alt="" />
+                    This is a card-based dungeon crawler game with magic and simple rules. You will receive a set of cards, one of which represents your hero.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://dragosha.com/media/posts/2/splash_image.jpg" class="type:primaryImage" alt="" /></p>
+                
+  <p>
+    This is a card-based dungeon crawler game with magic and simple rules. You will receive a set of cards, one of which represents your hero. You can move your hero one step left, right, up, or down to navigate through dungeons, unlock chests, collect coins, drink elixirs, cast fireballs, avoid traps, and defeat bosses. The game has basic mechanics with roguelike elements, making it challenging to master. Defeating bosses adds difficulty to the game and upgrades your hero, while opening chests rewards you with loot. However, be careful as there are also dangerous cards, such as poison, that can hinder your progress. The game is said to be addictive and can provide hours of entertainment.&nbsp;<br>
+  </p>
+
+  <ul>
+    <li><a href="https://apps.apple.com/us/app/look-your-loot/id1339205191" target="_blank">App Store</a></li><li><a href="https://play.google.com/store/apps/details?id=com.dragosha.hamster" target="_blank">Google Store</a></li><li>HTML 5: Play in your browser: <a href="https://poki.com/en/g/look-your-loot" target="_blank">Poki</a>&nbsp;or&nbsp;<a href="https://yandex.ru/games/#app=173904">Yandex games</a></li>
+  </ul>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://dragosha.com/media/posts/2/3rd-generation-2.jpg" height="2732" width="2048" alt="" />
+      
+    </figure>
+
+  <p>
+    There are 11 heroes to choose from, each with different tactics to help you collect as much loot as possible. These heroes include Knight, Mage, Paladin, Thief, Ruiner, Dark Druid, Sir Lancelot, Berserk, Assassin, Plague Doctor, and Archer.
+  </p>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/2/gallery/portrait_screen1.jpg" data-size="720x1280">
+        <img loading="lazy" src="https://dragosha.com/media/posts/2/gallery/portrait_screen1-thumbnail.jpg" height="1280" width="720" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/2/gallery/portrait_screen2.jpg" data-size="720x1280">
+        <img loading="lazy" src="https://dragosha.com/media/posts/2/gallery/portrait_screen2-thumbnail.jpg" height="1280" width="720" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/2/gallery/3rd-generation-1.jpg" data-size="2048x2732">
+        <img loading="lazy" src="https://dragosha.com/media/posts/2/gallery/3rd-generation-1-thumbnail.jpg" height="1025" width="768" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/2/gallery/iphone-screen-3.jpg" data-size="1242x2208">
+        <img loading="lazy" src="https://dragosha.com/media/posts/2/gallery/iphone-screen-3-thumbnail.jpg" height="1365" width="768" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/2/gallery/portrait_screen3.jpg" data-size="720x1280">
+        <img loading="lazy" src="https://dragosha.com/media/posts/2/gallery/portrait_screen3-thumbnail.jpg" height="1280" width="720" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/2/gallery/darkest_thief2.jpg" data-size="1024x704">
+        <img loading="lazy" src="https://dragosha.com/media/posts/2/gallery/darkest_thief2-thumbnail.jpg" height="528" width="768" alt="" />
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+<div><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/OR6MlqthRGY?si=fwemKIGTyjdjpAZa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></div>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Shadowless</title>
+        <author>
+            <name>me</name>
+        </author>
+        <link href="https://dragosha.com/shadowless/"/>
+        <id>https://dragosha.com/shadowless/</id>
+            <category term="game"/>
+            <category term="flash"/>
+
+        <updated>2016-06-01T13:51:00+05:00</updated>
+            <summary>
+                <![CDATA[
+                    You are a wanderer without a shadow. You don’t remember much about your past, but you’ve heard that the nefarious Queen of Shadows takes shadows&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/U9r6w4guwhI?si=JpNO4POFjmy9-Q1D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+</div>
+
+  <p>
+    You are a wanderer without a shadow. You don’t remember much about your past, but you’ve heard that the nefarious Queen of Shadows takes shadows from those that she recruits to do her bidding. Collect loot, gamble and level up your character to better battle the Queen’s minion horde so that you may learn the truth about you and your shadow.
+<br><br>Action Platformer. <b>Flash</b> platform. Published by Armor Games (8.1/10). The game was featured at Kongregate and Newgrounds.
+<br>
+<br><a href="http://www.kongregate.com/games/Griman/shadowless" target="_blank">Play online</a>
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://dragosha.com/media/posts/4/620x320.jpg" height="320" width="620" alt="" />
+      
+    </figure>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Baron&#x27;s Door</title>
+        <author>
+            <name>me</name>
+        </author>
+        <link href="https://dragosha.com/barons-door/"/>
+        <id>https://dragosha.com/barons-door/</id>
+        <media:content url="https://dragosha.com/media/posts/5/Untitled-1.jpg" medium="image" />
+            <category term="game"/>
+            <category term="flash"/>
+
+        <updated>2015-06-01T14:26:00+05:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://dragosha.com/media/posts/5/Untitled-1.jpg" alt="" />
+                    In one word, it was a crazy idea to wander around the castle of Baron’s Door with only a dagger in hand. All one needs&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://dragosha.com/media/posts/5/Untitled-1.jpg" class="type:primaryImage" alt="" /></p>
+                <div><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/UwZO_ao-aJc?si=JtgMF-bo0rcqOdb_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></div>
+
+  <p>
+    In one word, it was a crazy idea to wander around the castle of Baron’s Door with only a dagger in hand.
+<br>
+<br>All one needs to do is to find a better weapon to arm and to give the local baron what for.
+<br><br>Action Platformer. Flash platform. Published by Y8.<br>
+<br><a href="http://www.kongregate.com/games/Griman/barons-door" target="_blank">Play online</a>
+  </p>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/5/gallery/PB043175.jpg" data-size="700x486">
+        <img loading="lazy" src="https://dragosha.com/media/posts/5/gallery/PB043175-thumbnail.jpg" height="486" width="700" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/5/gallery/scr1.jpg" data-size="700x525">
+        <img loading="lazy" src="https://dragosha.com/media/posts/5/gallery/scr1-thumbnail.jpg" height="525" width="700" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/5/gallery/scr2.jpg" data-size="700x525">
+        <img loading="lazy" src="https://dragosha.com/media/posts/5/gallery/scr2-thumbnail.jpg" height="525" width="700" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/5/gallery/scr3.jpg" data-size="700x525">
+        <img loading="lazy" src="https://dragosha.com/media/posts/5/gallery/scr3-thumbnail.jpg" height="525" width="700" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/5/gallery/scr4.jpg" data-size="700x525">
+        <img loading="lazy" src="https://dragosha.com/media/posts/5/gallery/scr4-thumbnail.jpg" height="525" width="700" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/5/gallery/scr5.jpg" data-size="700x525">
+        <img loading="lazy" src="https://dragosha.com/media/posts/5/gallery/scr5-thumbnail.jpg" height="525" width="700" alt="" />
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Baron&#x27;s Gate 2</title>
+        <author>
+            <name>me</name>
+        </author>
+        <link href="https://dragosha.com/barons-gate-2/"/>
+        <id>https://dragosha.com/barons-gate-2/</id>
+        <media:content url="https://dragosha.com/media/posts/6/850x400b.jpg" medium="image" />
+            <category term="game"/>
+            <category term="flash"/>
+
+        <updated>2014-05-01T14:29:00+06:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://dragosha.com/media/posts/6/850x400b.jpg" alt="" />
+                    Baron's Gate 2 is a fantastical rpg-platform game set in deep dark dungeons. Defeat mystical enemies, collect gold to buy new equipment or find special&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://dragosha.com/media/posts/6/850x400b.jpg" class="type:primaryImage" alt="" /></p>
+                <div><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/h6CXLo8b_Fw?si=ENyOtMAalHgkB2kd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></div>
+
+  <p>
+    Baron's Gate 2 is a fantastical rpg-platform game set in deep dark dungeons. Defeat mystical enemies, collect gold to buy new equipment or find special loot in dangerous hidden areas.<br>
+<br>Action Platformer. Flash platform. Published by Armor Games (8/10). The game was featured at Kongregate and Newgrounds.
+<br>
+<br><a href="http://www.kongregate.com/games/Griman/barons-gate-2" target="_blank"><b>Play online</b></a>
+  </p>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/6/gallery/scr1.png" data-size="700x525">
+        <img loading="lazy" src="https://dragosha.com/media/posts/6/gallery/scr1-thumbnail.png" height="525" width="700" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/6/gallery/scr2.png" data-size="696x525">
+        <img loading="lazy" src="https://dragosha.com/media/posts/6/gallery/scr2-thumbnail.png" height="525" width="696" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/6/gallery/scr3.png" data-size="700x525">
+        <img loading="lazy" src="https://dragosha.com/media/posts/6/gallery/scr3-thumbnail.png" height="525" width="700" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/6/gallery/scr4.png" data-size="700x522">
+        <img loading="lazy" src="https://dragosha.com/media/posts/6/gallery/scr4-thumbnail.png" height="522" width="700" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://dragosha.com/media/posts/6/gallery/scr5.png" data-size="701x524">
+        <img loading="lazy" src="https://dragosha.com/media/posts/6/gallery/scr5-thumbnail.png" height="524" width="701" alt="" />
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+            ]]>
+        </content>
+    </entry>
+</feed>

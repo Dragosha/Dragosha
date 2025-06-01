@@ -1,72 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://dragosha.com/index.html</loc>
-    <lastmod>2018-06-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://dragosha.com/images/mockup2.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://dragosha.com/images/google-play-badge.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://dragosha.com/images/mockup.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://dragosha.com/images/monster-6.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://dragosha.com/images/mouse.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://dragosha.com/images/monster-2.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://dragosha.com/images/skull.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://dragosha.com/images/eine_und_kleine.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://dragosha.com/images/mage.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://dragosha.com/images/hero.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://dragosha.com/images/shield-3.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://dragosha.com/images/mockup648x380.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://dragosha.com/images/eine_und_kleine418x273.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://dragosha.com/images/mockup2194x294.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://dragosha.com/images/mockup547x322.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://dragosha.com/images/eine_und_kleine259x169.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://dragosha.com/images/hero321x233.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://dragosha.com/images/download-on-the-app-store.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://dragosha.com/privacy-policy.html</loc>
-    <lastmod>2017-11-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://dragosha.com/images/mouse.png</image:loc>
-    </image:image>
-  </url>
+<?xml-stylesheet type="text/xsl" href="https://dragosha.com/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://dragosha.com/</loc>
+</url>
+<url>
+<loc>https://dragosha.com/adventure-tileset/</loc>
+<lastmod>2025-06-01T16:24:07+05:00</lastmod>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/12/adventure-tileset-u127-fr.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/12/title.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://dragosha.com/barons-door/</loc>
+<lastmod>2025-06-01T14:27:11+05:00</lastmod>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/5/Untitled-1.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/5/gallery/PB043175.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/5/gallery/scr1.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/5/gallery/scr2.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/5/gallery/scr3.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/5/gallery/scr4.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/5/gallery/scr5.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://dragosha.com/barons-gate-2/</loc>
+<lastmod>2025-06-01T18:10:59+05:00</lastmod>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/6/850x400b.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/6/gallery/scr1.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/6/gallery/scr2.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/6/gallery/scr3.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/6/gallery/scr4.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/6/gallery/scr5.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://dragosha.com/first-person-demo/</loc>
+<lastmod>2025-06-01T18:10:12+05:00</lastmod>
+</url>
+<url>
+<loc>https://dragosha.com/foggy-fox/</loc>
+<lastmod>2025-06-01T18:10:31+05:00</lastmod>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/8/scr_b2.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/8/gallery/scr_b1.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/8/gallery/scr_b3.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/8/gallery/scr2-2.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/8/gallery/scr5-2.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://dragosha.com/goblin-platform/</loc>
+<lastmod>2025-06-01T18:08:59+05:00</lastmod>
+</url>
+<url>
+<loc>https://dragosha.com/home-page/isometric-art/</loc>
+</url>
+<url>
+<loc>https://dragosha.com/isometric-dungeon-tileset/</loc>
+<lastmod>2025-06-01T16:24:12+05:00</lastmod>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/11/adventure3.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/11/crate2.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://dragosha.com/jolly-jong-2/</loc>
+<lastmod>2025-06-01T18:11:04+05:00</lastmod>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/7/gallery/screen1.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/7/gallery/screen2.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/7/gallery/screen3.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://dragosha.com/look-your-loot/</loc>
+<lastmod>2025-06-01T13:56:33+05:00</lastmod>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/2/splash_image.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/2/3rd-generation-2.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/2/gallery/portrait_screen1.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/2/gallery/portrait_screen2.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/2/gallery/3rd-generation-1.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/2/gallery/iphone-screen-3.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/2/gallery/portrait_screen3.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/2/gallery/darkest_thief2.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://dragosha.com/shadowless/</loc>
+<lastmod>2025-06-01T13:59:09+05:00</lastmod>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/4/620x320.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://dragosha.com/the-dungeon/</loc>
+<lastmod>2025-06-01T16:24:01+05:00</lastmod>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/13/green.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/13/gallery/2015-04-20-19-35-59-adobe-flash-player-16.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/13/gallery/2015-05-02-23-29-54-adobe-flash-player-16.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/13/gallery/2014-07-31-16-56-30-xenofantfla.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/13/gallery/2015-01-21-00-06-40-adobe-flash-player-11.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/13/gallery/2015-02-05-19-03-47-skrinshot-ekrana.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/13/gallery/2015-03-03-19-28-28-xenouifla.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/13/2017-12-30_23-53-02.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://dragosha.com/media/posts/13/tile21d.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
 </urlset>
