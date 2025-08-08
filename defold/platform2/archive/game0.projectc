@@ -1,6 +1,6 @@
 [project]
 title = platform
-version = 0.05
+version = 0.02
 write_log = 0
 minimum_log_level = 1
 compress_archive = 1
@@ -30,14 +30,14 @@ clear_color_alpha = 1
 [physics]
 type = 2D
 max_collision_object_count = 512
-use_fixed_timestep = 1
-gravity_y = -300.0
+use_fixed_timestep = 0
+gravity_y = -120.0
 debug = 0
 debug_alpha = 0.9
 world_count = 4
 gravity_x = 0
 gravity_z = 0
-scale = 0.01
+scale = 0.1
 allow_dynamic_transforms = 1
 debug_scale = 30
 max_collisions = 512
@@ -46,8 +46,8 @@ contact_impulse_limit = 0
 ray_cast_limit_2d = 64
 ray_cast_limit_3d = 128
 trigger_overlap_capacity = 64
-velocity_threshold = 100.0
-max_fixed_timesteps = 1
+velocity_threshold = 1
+max_fixed_timesteps = 2
 
 [bootstrap]
 main_collection = /game/main.collectionc
@@ -139,7 +139,7 @@ localizations = en
 version_code = 1
 minimum_sdk_version = 19
 target_sdk_version = 35
-package = com.dragosha.platform
+package = com.dragosha.ls
 gcm_sender_id = 
 manifest = /builtins/manifests/android/AndroidManifest.xml
 iap_provider = GooglePlay
