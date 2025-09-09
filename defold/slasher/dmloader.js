@@ -215,9 +215,9 @@ var FileLoader = {
 var EngineLoader = {
     arc_sha1: "",
     wasm_sha1: "",
-    wasm_size: 2525713,
+    wasm_size: 2701460,
     wasmjs_sha1: "",
-    wasmjs_size: 273436,
+    wasmjs_size: 274560,
     wasm_pthread_sha1: "",
     wasm_pthread_size: 2000000,
     wasmjs_pthread_sha1: "",
@@ -1269,9 +1269,9 @@ Module["locateFile"] = function(path, scriptDirectory)
     // we need to replace it here with the correct project name.
     if (path == "dmengine.wasm" || path == "dmengine_release.wasm" || path == "dmengine_headless.wasm") {
         if (Module['isWASMPthreadSupported']) {
-            path = "LightandShadows_pthread.wasm";
+            path = "SlasherLightandShadows_pthread.wasm";
         } else {
-            path = "LightandShadows.wasm";
+            path = "SlasherLightandShadows.wasm";
         }
     }
     return scriptDirectory + path;
