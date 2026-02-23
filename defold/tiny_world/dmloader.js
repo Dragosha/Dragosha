@@ -87,8 +87,8 @@ var CUSTOM_PARAMETERS = {
         }
         prevInnerWidth = innerWidth;
         prevInnerHeight = innerHeight;
-        var width = 1600;
-        var height = 900;
+        var width = 1920;
+        var height = 1080;
         var targetRatio = width / height;
         var actualRatio = innerWidth / innerHeight;
     
@@ -215,9 +215,9 @@ var FileLoader = {
 var EngineLoader = {
     arc_sha1: "",
     wasm_sha1: "",
-    wasm_size: 2530740,
+    wasm_size: 2580992,
     wasmjs_sha1: "",
-    wasmjs_size: 273436,
+    wasmjs_size: 273993,
     wasm_pthread_sha1: "",
     wasm_pthread_size: 2000000,
     wasmjs_pthread_sha1: "",
@@ -286,8 +286,9 @@ var EngineLoader = {
                         const error = new Error("Unexpected wasm sha1: " + sha1 + ", expected: " + EngineLoader.getWasmSha1());
                         if (typeof CUSTOM_PARAMETERS["start_error"] === "function") {
                            CUSTOM_PARAMETERS["start_error"](error);
+                        } else {
+                            throw error;
                         }
-                        throw error;
                     }
                 }
                 var wasmInstantiate = WebAssembly.instantiate(new Uint8Array(wasm), imports).then(function(output) {
@@ -297,8 +298,9 @@ var EngineLoader = {
                     console.log('wasm instantiation failed! ' + e);
                     if (typeof CUSTOM_PARAMETERS["start_error"] === "function") {
                         CUSTOM_PARAMETERS["start_error"](e);
+                    } else {
+                        throw e;
                     }
-                    throw e;
                 });
             },
             function(loadedDelta, currentAttempt){
@@ -687,7 +689,11 @@ var GameArchiveLoader = {
                 this.onFileLoaded(file);
             }).catch((e) => {
                 console.log('file verification failed! ' + e);
-                throw e;
+                if (typeof CUSTOM_PARAMETERS["start_error"] === "function") {
+                   CUSTOM_PARAMETERS["start_error"](e);
+                } else {
+                   throw e;
+                }
             });
         }
         // continue loading more pieces of the file
@@ -881,8 +887,8 @@ var Progress = {
 /* ********************************************************************* */
 
 var Module = {
-    engineVersion: "1.10.3",
-    engineSdkSha1: "1c76521bb8b08c63ef619aa8a5ab563dddf7b3cf",
+    engineVersion: "1.12.1",
+    engineSdkSha1: "16c6fd602f32de4814660672c38ce3ccbbc1fb59",
     noInitialRun: true,
 
     _filesToPreload: [],
