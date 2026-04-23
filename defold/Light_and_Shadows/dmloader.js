@@ -65,28 +65,29 @@ var CUSTOM_PARAMETERS = {
     },
     update_imports: function(imports) {
     },
+    resize_window_prev_inner_width: -1,
+    resize_window_prev_inner_height: -1,
     resize_window_callback: function() {
         var is_iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
         var buttonHeight = 0;
-        var prevInnerWidth = -1;
-        var prevInnerHeight = -1;
         
         
         // Hack for iOS when exit from Fullscreen mode
         if (is_iOS) {
             window.scrollTo(0, 0);
         }
-    
+
         var app_container = document.getElementById('app-container');
         var game_canvas = document.getElementById('canvas');
         var innerWidth = window.innerWidth;
         var innerHeight = window.innerHeight - buttonHeight;
-        if (prevInnerWidth == innerWidth && prevInnerHeight == innerHeight)
+        if (CUSTOM_PARAMETERS.resize_window_prev_inner_width == innerWidth &&
+            CUSTOM_PARAMETERS.resize_window_prev_inner_height == innerHeight)
         {
             return;
         }
-        prevInnerWidth = innerWidth;
-        prevInnerHeight = innerHeight;
+        CUSTOM_PARAMETERS.resize_window_prev_inner_width = innerWidth;
+        CUSTOM_PARAMETERS.resize_window_prev_inner_height = innerHeight;
         var width = 1600;
         var height = 900;
         var targetRatio = width / height;
@@ -215,9 +216,9 @@ var FileLoader = {
 var EngineLoader = {
     arc_sha1: "",
     wasm_sha1: "",
-    wasm_size: 2569105,
+    wasm_size: 2339498,
     wasmjs_sha1: "",
-    wasmjs_size: 273780,
+    wasmjs_size: 267097,
     wasm_pthread_sha1: "",
     wasm_pthread_size: 2000000,
     wasmjs_pthread_sha1: "",
@@ -887,8 +888,8 @@ var Progress = {
 /* ********************************************************************* */
 
 var Module = {
-    engineVersion: "1.12.0",
-    engineSdkSha1: "6c05f82cfcc90267dbeb338dedcd1e12fdc5ff13",
+    engineVersion: "1.12.4",
+    engineSdkSha1: "69145457f80a3f96edee1080184744c227dc13d2",
     noInitialRun: true,
 
     _filesToPreload: [],
